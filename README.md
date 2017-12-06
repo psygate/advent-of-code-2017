@@ -21,3 +21,7 @@ Problems of [Advent of Code 2017](https://adventofcode.com/) solved in whatever 
 ## Problem 5
 
 * Language: Java
+
+## Problem 6
+
+* Language: C
