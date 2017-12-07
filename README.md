@@ -25,3 +25,7 @@ Problems of [Advent of Code 2017](https://adventofcode.com/) solved in whatever 
 ## Problem 6
 
 * Language: C
+
+## Problem 7
+
+* Language: JavaScript
