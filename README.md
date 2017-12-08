@@ -29,3 +29,7 @@ Problems of [Advent of Code 2017](https://adventofcode.com/) solved in whatever 
 ## Problem 7
 
 * Language: JavaScript
+
+## Problem 8
+
+* Language: D
