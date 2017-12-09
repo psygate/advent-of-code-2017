@@ -1,0 +1,27 @@
+open("input.txt") do f
+    garbage = false
+    scope = 0
+    scopescore = 0
+    garbagecount = 0
+
+    while !eof(f)
+        chr = read(f, Char)
+        if chr == '!'
+            read(f, Char) # Skip one char
+            continue
+        elseif chr == '<' && !garbage
+            garbage = true
+        elseif chr == '>'
+            garbage = false
+        elseif chr == '{' && !garbage
+            scope += 1
+        elseif chr == '}' && !garbage
+            scopescore += scope
+            scope -= 1
+        elseif garbage
+            garbagecount += 1
+        end
+    end
+
+    println("Scope score: ", scopescore, "Garbage: ", garbagecount)
+end
