@@ -37,3 +37,11 @@ Problems of [Advent of Code 2017](https://adventofcode.com/) solved in whatever 
 ## Problem 9
 
 * Language: Julia
+
+## Problem 10
+
+* Language: Scala
+
+## Problem 11
+
+* Language: Java
